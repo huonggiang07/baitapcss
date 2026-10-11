@@ -1,0 +1,33 @@
+/* 1. Định dạng cho nút Skip to Main Content */
+.skip {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 8px;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.skip:focus {
+  top: 0;
+}
+
+/* 2. Định dạng cho thanh điều hướng nav */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+/* 3. Định dạng bộ chọn hậu duệ cho hình ảnh trong nav */
+nav img {
+  width: 10%;
+}
+
+/* 4. Định dạng bộ chọn cột lưới */
+.col {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
